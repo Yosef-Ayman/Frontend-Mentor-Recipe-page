@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 @font-face {
@@ -125,14 +124,15 @@ table {
     justify-self: center;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 800px) {
     body {
+        width: 100%;
         background-color: white;
     }
 
     main {
         width: 100%;
-        padding: 10px;
+        padding: 20px;
     }
 
     td {
@@ -140,7 +140,6 @@ table {
     }
 
     main .image img {
-        border-radius: 5px;
+        border-radius: 1rem;
     }
 }
-
