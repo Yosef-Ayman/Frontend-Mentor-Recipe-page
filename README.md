@@ -1,5 +1,6 @@
 # 🍳 Simple Omelette Recipe Page  
 
+Repository URL: https://yosef-ayman.github.io/Frontend-Mentor-Recipe-page/
 This project is a **fully responsive recipe page** built with **HTML & CSS**, created as part of a [Frontend Mentor](https://www.frontendmentor.io) challenge.  
 It showcases a **simple omelette recipe** with a clear, user-friendly layout and visually appealing design.  
 
