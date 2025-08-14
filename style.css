@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    color: #575651;
+    font-family: Arial, serif;
+}
+
+hr{
+    color: #575651;
+}
+
+a{
+    color: blue;
+}
+
+h1{
+    color: black;
+}
+
+main .sec2 h3, main .sec2 ::marker{
+    color: #aa1f73;
+}
+
+h2, main .sec3 ::marker, main .sec4 ::marker{
+    color: saddlebrown;
+}
+
+td{
+    padding: 10px 20px;
+    border-bottom: 1px solid #575651;
+}
+
+td:last-child{
+    font-weight: bold;
+    color: saddlebrown;
+}
+
+body{
+    width: 100%;
+    background-color: #F3E5D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 50%;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+main div{
+    margin: 30px 0;
+}
+
+ul, ol{
+    padding-left: 30px;
+}
+
+li{
+    padding: 5px 15px;
+}
+
+main .sec2{
+    background-color: #FCF4F9;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+
+main .image{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+}
+
+main .image img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+tr:last-child td{
+    border-bottom: 0;
+}
+
+.attribution{
+    margin: 20px 0 5px 0;
+    justify-self: center;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background-color: #FFFFFF;
+    }
+    main{
+         width: 100%;
+    }
+}
