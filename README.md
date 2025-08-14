@@ -1,2 +1,18 @@
-# Frontend-Mentor-Recipe-page
-A responsive Recipe Page built with HTML and CSS, based on a Frontend Mentor challenge. The page displays a simple omelette recipe with an image, preparation time, ingredients, step-by-step instructions, and nutrition facts. Fully styled for clean readability and pleasant user experience.
+# 🍳 Simple Omelette Recipe Page  
+
+This project is a **fully responsive recipe page** built with **HTML & CSS**, created as part of a [Frontend Mentor](https://www.frontendmentor.io) challenge.  
+It showcases a **simple omelette recipe** with a clear, user-friendly layout and visually appealing design.  
+
+## 📋 Features  
+- **Semantic HTML5 structure** for accessibility and SEO  
+- **Responsive design** that adapts to different screen sizes  
+- **High-quality recipe image** with optimized display  
+- **Organized sections**: Introduction, Preparation time, Ingredients, Instructions, and Nutrition facts  
+- **Styled table** for easy-to-read nutritional values  
+
+## 🖼 Preview  
+![Recipe Page Screenshot](./assets/images/preview.png) <!-- Replace this path with your actual screenshot -->
+
+## 🛠 Technologies Used  
+- **HTML5** – For semantic structure  
+- **CSS3** – For styling and responsive design
