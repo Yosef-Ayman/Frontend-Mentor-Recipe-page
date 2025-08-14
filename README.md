@@ -11,7 +11,7 @@ It showcases a **simple omelette recipe** with a clear, user-friendly layout and
 - **Styled table** for easy-to-read nutritional values  
 
 ## 🖼 Preview  
-![Recipe Page Screenshot](./assets/images/preview.png)
+![Recipe Page Screenshot](preview.png)
 
 ## 🛠 Technologies Used  
 - **HTML5** – For semantic structure  
