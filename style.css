@@ -1,104 +1,144 @@
-*{
+* {
     box-sizing: border-box;
-    color: #575651;
-    font-family: Arial, serif;
 }
 
-hr{
-    color: #575651;
+@font-face {
+    font-family: 'Outfit';
+    src: url('assets/fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
+    font-weight: 400;
 }
 
-a{
+@font-face {
+    font-family: 'Outfit';
+    src: url('assets/fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Young Serif';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+h1, h2 {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+}
+
+h2,
+main .sec3 ::marker,
+main .sec4 ::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+h3, main .sec2 h3, main .sec2 ::marker {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: hsl(332, 51%, 32%);
+}
+
+p, li, td {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+li {
+    padding: 5px 15px;
+}
+
+a {
     color: blue;
 }
 
-h1{
-    color: black;
+td {
+    padding: 10px 40px;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
 }
 
-main .sec2 h3, main .sec2 ::marker{
-    color: #aa1f73;
+td:last-child {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
 }
 
-h2, main .sec3 ::marker, main .sec4 ::marker{
-    color: saddlebrown;
+tr:last-child td {
+    border-bottom: 0;
 }
 
-td{
-    padding: 10px 20px;
-    border-bottom: 1px solid #575651;
-}
-
-td:last-child{
-    font-weight: bold;
-    color: saddlebrown;
-}
-
-body{
+body {
     width: 100%;
-    background-color: #F3E5D8;
+    background-color: hsl(30, 54%, 90%);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main{
-    width: 50%;
-    background-color: #FFFFFF;
+main {
+    width: 70%;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
     padding: 30px;
 }
 
-main div{
+main div {
     margin: 30px 0;
 }
 
-ul, ol{
+ul, ol {
     padding-left: 30px;
 }
 
-li{
-    padding: 5px 15px;
+.sec3, .sec4 {
+    border-bottom: 2px solid hsl(30, 18%, 87%);
 }
 
-main .sec2{
-    background-color: #FCF4F9;
+main .sec2 {
+    background-color: hsl(330, 100%, 98%);
     padding: 5px 20px;
     border-radius: 15px;
 }
 
-main .image{
+main .image {
     display: flex;
     width: 100%;
     justify-content: center;
     margin: 0;
 }
 
-main .image img{
+main .image img {
     width: 100%;
     border-radius: 15px;
 }
 
-table{
+table {
     width: 100%;
     border-collapse: collapse;
 }
 
-
-tr:last-child td{
-    border-bottom: 0;
-}
-
-.attribution{
+.attribution {
     margin: 20px 0 5px 0;
     justify-self: center;
 }
 
-@media screen and (max-width: 800px){
-    body{
-        background-color: #FFFFFF;
+@media screen and (max-width: 375px) {
+    body {
+        background-color: white;
     }
-    main{
-         width: 100%;
+
+    main {
+        width: 100%;
+        padding: 10px;
+    }
+
+    td {
+        padding: 10px 20px;
+    }
+
+    main .image img {
+        border-radius: 5px;
     }
 }
